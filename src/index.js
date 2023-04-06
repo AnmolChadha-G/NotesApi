@@ -21,7 +21,7 @@ app.use(express.json());
 app.use("/users",userRouter);
 app.use("/note",noteRouter);
 app.get("/",(req,res)=>{
-    res.send("hello from home");
+    res.send("hello from Anmol Chadha");
 });
 app.get("/quote",(req,res)=>{
     res.send("hello from quote");
